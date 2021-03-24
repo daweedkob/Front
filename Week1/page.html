@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+    .diviko{
+        background-color:red; width:600px; height:10px;
+       }
+       .diviko2{
+        background-color:blue; width:600px; height:10px;
+       }
+       .mix {
+           border-style: dotted dashed solid double;
+           color:cyan;
+       }
+       .last{
+        width:200px;
+        height:200px;
+        background-color: rgb(130, 14, 14);
+       }
+
+       .rounder{
+         border-radius: 15px;
+         text-align: center;
+         width: 100px;
+         height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Normal text</p>
+        <p style="font-style: italic;">Italic text</p> 
+        <p style="font-style: oblique;">Oblique text</p>
+        <br>
+    </div>
+    <div style='background: yellow;'>
+    <h1 style='text-align: center;'>მოგელსალმებით!</h1>
+    <h3 style='text-align: center;'>kva.ge</h3>
+    </div>
+    <div>
+        <h1 style='color:red;text-align: right;'>Some text</h1>
+    </div>
+
+    <div>
+        <h1 style='text-align: center;'>სტუდენტები</h1>
+        <h3 style='text-align: right;'>გოგოები</h3>
+        <p>მარი</p>
+        <p>სალომე</p>
+        <div class='diviko'></div>
+
+        <h3 style='text-align: right;'>ბიჭები</h3>
+        <p>დავითი</p>
+        <p>გიო</p>
+        <div class='diviko2'></div>
+
+        <h1 style='font-size:40px;text-decoration: overline;'>First</h1>
+        <h1 style='font-size:40px;text-decoration: line-through;'>Second</h1>
+        <u style='font-size:40px;'>Third text</u>
+
+        <h1>შემდეგი დავალება:</h1>
+        <ul>
+            <li>პირველი</li>
+            <li>მეორე</li>
+            <li>მესამე</li>
+        </ul>
+    </div>
+    <div>
+        <h2 style="color: blue;">border styles</h2>
+        <div>
+            <p class="color_display" style="border-style: dotted;color:cyan">
+                test
+            </p>
+            <p class="color_display" style="border-style: dashed;color:cyan">
+                test
+            </p>
+            <p class="color_display" style="border-style: solid;color:cyan">
+                test
+            </p>
+            <p  class="color_display" style="border-style: double;color:cyan">
+                test
+            </p>
+            <p  class="color_display" style="border-style: ridge;color:cyan">
+                test
+            </p>
+            <p  class="color_display" style="border-style: inset;color:cyan">
+                test
+            </p>  
+            <p  class="color_display" style="border-style: outset;color:cyan">
+                test
+            </p>
+
+            <p style="border-style: hidden;"  class="color_display">
+                test
+            </p>
+            <p class="mix">
+                test
+            </p>
+        </div>
+        
+        <div>
+            <div>
+                <div class="rounder" style="background-color: brown;">
+                    <p>პირველი</p>
+                </div>
+                <br>
+                <div class="rounder" style="border-style: solid;">
+                    <p>მეორე</p>
+                </div>
+                <div class="rounder" style='background-image:url("test.jpg")'>
+                    <p>ბოლო</p>
+                </div>
+                <br>
+        
+            </div>
+        </div>
+
+        <div class='last' style="border-radius: 15px 50px 30px 5px"></div><br>
+        <div class='last' style="border-radius: 15px 50px 30px"></div><br>
+        <div class='last' style="border-radius: 15px 50px"></div><br>
+        <div class='last' style="border-radius: 50px/15px"></div><br>
+        <div class='last' style="border-radius: 15px/50px"></div><br>
+        <div class='last' style="border-radius: 50%"></div><br>
+
+
+    </div>
+</body>
+</html>
