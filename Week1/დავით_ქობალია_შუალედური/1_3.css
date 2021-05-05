@@ -1,0 +1,47 @@
+.container{
+    height: 200px;
+    width: 40%;
+    border: solid black 1px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainer{
+    height: 80%;
+    max-width: 95%;
+    border: solid grey 1px;
+    flex: 100;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div1{
+    flex: 2;
+    background-color: yellow;
+    border: dashed red 3px;
+    max-width: 150px;
+    min-height: 100px;
+} 
+
+.div2{
+    flex: 2;
+    max-width: 100px;
+    min-height: 80px;
+    background-color: yellow;
+    border-top: dashed red 4px;
+    border-bottom: dashed blue 4px; 
+    border-left: solid green 4px;
+} 
+.div3{
+    flex: 1;
+    max-width: 0px;
+    min-height: 0px;
+    background-color: yellow;
+    border-top: solid red 30px;
+    border-left: solid green 30px;
+    border-bottom: solid blue 30px; 
+    border-right: solid yellow 30px; 
+}

@@ -1,0 +1,19 @@
+.maindiv{
+    width: 70%;
+    height: 300px;
+    background-color: rgb(45, 136, 45);
+    margin: auto;
+}
+
+.subdiv{
+    width: 60%;
+    height: 40px;
+    background-color: yellow;
+    border: 3px solid crimson;
+    padding: 10px;
+    border-radius: 5px 50px;
+    color: crimson;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}

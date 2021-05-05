@@ -1,0 +1,12 @@
+.container{
+    height:150px;
+    width: 400px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    border:solid red 2px;
+    border-bottom:0;
+}
+div{
+    border: solid red 1px;
+}

@@ -1,0 +1,44 @@
+.container{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+
+.subcontainer {
+    height: 100px;
+    width: 100%;
+    background-color: silver;
+    color: #000000;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+  }
+.box{
+    padding: 30px;
+    height: 60%;
+    width: 30%;
+    background-color: red;
+    border: solid 2px green;
+    margin: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.head{
+    display: inline-block;
+    color:red;
+}
+@media (max-width: 600px) {
+    .subcontainer {
+        height:200;
+        display: inline-block;
+        flex-direction: column;
+
+      }
+    .box{
+        border: solid 2px red;
+        background-color: green;
+        width: 90%;
+    }
+    .head{
+        color: green;
+    }
+  }
