@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <script src="js.js"></script>
+    <style>
+.container{
+    width: 40%;
+    height: 200px;
+    background-color: orange;
+}
+
+.my{
+    display: flex;
+    width: 50%;
+    height: 50px;
+    margin: 5px;
+}
+
+input{
+    margin:5px;
+}
+
+button{
+    margin:5px;
+    height:40px;
+    width:200px
+}
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <div class='my'>
+            <input id='perc' placeholder='პროცენტი'>
+            <input id='time' placeholder='დრო (თვეებში)'>
+            <input id='amount' placeholder='თანხა'><br>
+        </div>
+        <button onclick=hard()>Calculate</button>
+        <input id='result' disabled>Result</input>
+    </div>
+</body>
+</html>
