@@ -1,0 +1,74 @@
+.a {
+    width:70px;
+    height:70px;
+    background-color:green;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+
+  
+  .b {
+    width:10px;
+    height:10px;
+    background-color: blueviolet;
+    border-radius:50%;
+  }
+
+
+  .b {
+  -webkit-animation: bgcolorchange 4s infinite; /* Chrome, Safari, Opera */ 
+  animation: 4s infinite bgcolorchange;
+}
+@keyframes bgcolorchange {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: green;
+  }
+
+  100% {
+    background-color: yellow;
+  }
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes bgcolorchange {
+      0%   {background: blue;}
+      50%  {background: green;}
+      100% {background: yellow;}
+}
+
+
+.move {
+
+    position:relative;
+  -webkit-animation: diagonal 2s infinite;
+  -moz-animation: diagonal 2s infinite;
+  -o-animation: diagonal 2s infinite;
+  animation: diagonal 2s infinite;
+}
+
+@-webkit-keyframes diagonal {
+  0%       { transform: translatex(-35px) translatey(-30px) }
+  50%      { transform: translatex(20px) translatey(20px); }
+  100%     { transform: translatex(-30px) translatey(-30px) }
+}
+
+@-moz-keyframes diagonal {
+  0%       { transform: translatex(-30px) translatey(-30px) }
+  50%      { transform: translatex(20px) translatey(20px); }
+  100%     { transform: translatex(-30px) translatey(-30px) }
+}
+
+@-o-keyframes diagonal {
+  0%       { transform: translatex(-30px) translatey(-30px) }
+  50%      { transform: translatex(20px) translatey(20px); }
+  100%     { transform: translatex(-30px) translatey(-30px) }
+}
+
+@keyframes diagonal {
+  0%       { transform: translatex(-30px) translatey(-30px) }
+  50%      { transform: translatex(20px) translatey(20px); }
+  100%     { transform: translatex(-30px) translatey(-30px) }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <script src="js.js"></script>
+    <style>
+.container{
+        height: 600px;
+        width: 800px;
+        border:2px solid blue;
+        margin:auto;
+        
+}
+
+.little{
+    height:66px;
+    width:500px;
+    border:2px solid blue;
+    margin:auto;
+}
+.box{
+    height:50px;
+    width:50px;
+    background-color: blue;
+    position: absolute;
+
+}
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box" id='box' style='top:0;left:0px;position:relative'></div>
+    </div>
+    <div class='little'>
+        <button onclick="move(this.id)" id='left'>LEFT</button>
+        <button onclick="move(this.id)" id='right'>RIGHT</button>
+        <button onclick="move(this.id)" id='up'>UP</button>
+        <button onclick="move(this.id)" id='down'>DOWN</button><br>
+        <button onclick="move(this.id)" id='up-left'>UP-LEFT</button>
+        <button onclick="move(this.id)" id='up-right'>UP-RIGHT</button><br>
+        <button onclick="move(this.id)" id='down-left'>DOWN-LEFT</button>
+        <button onclick="move(this.id)" id='down-right'>DOWN-RIGHT</button>
+    </div>
+
+</body>
+</html>

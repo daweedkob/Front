@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <script src="js.js"></script>
+    <style>
+        .m{
+            padding-left: 5px;
+            border-bottom: black solid 1px;
+        }
+        textarea{
+            margin: 15px;
+        }
+        span{
+            margin-left:15px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex; width: 1000px;height: 500px;flex-direction: column;">
+        <div style="flex: 2;background-color: green;height: 80px;border-top-left-radius: 10px;border-top-right-radius: 10px;display: flex;border-bottom: solid 2px brown;">
+            <div style="flex: 1;">
+                <h2 style="color: white;padding-left: 20px;margin-top: 7px;text-shadow: red 2px 2px;">Page's Header</h2>
+            </div>
+            <div style="flex: 1;">
+                <input placeholder="e-mail" style="margin-top:7px;margin-left: 40px;">
+                <input placeholder="password">
+                <br>
+                <button onmouseover='task1(this.id)' style="margin-left: 330px;margin-top: 10px;border-radius: 5px;border: none;height: 22px;" id='btn'>LOGIN</button>
+            </div>
+        </div> 
+        <div style="flex: 9;display: flex;border-right:solid grey 1px;border-bottom:solid grey 1px">
+            <div style="flex: 2;background-color: grey;display: flex;flex-direction: column;">
+                <table>
+                    <tr><td onmouseover='task1(this.id)' class="m" id='1'>Menu Item1</td></tr>
+                    <tr><td onmouseover='task1(this.id)' class="m" id='2'>Menu Item2</td></tr>
+                    <tr><td onmouseover='task1(this.id)' class="m" id='3'>Menu Item3</td></tr>
+                    <tr><td onmouseover='task1(this.id)' class="m" id='4'>Menu Item4</td></tr>
+                    <tr><td onmouseover='task1(this.id)' class="m" id='5'>Menu Item5</td></tr>
+                    <tr><td onmouseover='task1(this.id)' class="m" id='6'>Menu Item6</td></tr>
+                </table>
+                <div style="flex:5"></div>
+            </div>
+            <table style="flex: 6;">
+                    <tr><td><label><b style='font-size:20px;margin-left:15px'>Contact Form:</b></label></td></tr>
+                    <tr><td><span>Name:</span><input type="text" style="width: 100px;"></td></tr>
+                    <tr><td><span>Email:</span><input type="text"></td></tr>
+                    <tr><td><span>Date Of Birth:</span><input type="date"></td></tr>
+                    <tr><td><span>Text:</span></td></tr>
+                    <tr><td><textarea type="text" style="height: 70px;width: 400px;"></textarea></td></tr>
+                </table>
+        </div>
+        <div style="background-color: grey;margin-top: 2px;border-bottom-left-radius:20px;display: flex;justify-content: center;">
+            <p style="color: blue;align-items: center;justify-content: center;text-shadow: white 3px 2px;margin-top: 4px;">Page's Footer</p>
+        </div>
+    </div>
+</body>
+</html>

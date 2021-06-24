@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <style>
+.board{
+        width:1300px;
+        height:700px;
+        margin:auto;
+        background-color: black;
+        border:10px solid green;
+}
+.apple{
+    position: relative;
+    width:40px;
+    height:40px;
+    background-color:red;
+}
+
+.snake{
+    position: relative;
+    width:40px;
+    height:40px;
+    background-color:green;
+}
+    </style>
+
+
+</head>
+<body>
+    <div class='board'>
+        <div class='apple' id='apple' onkeydown='move(event)' style='top:0px;left:0px;'></div>
+        <div class='snake' id ='snake' style='top:400px;left:400px' onkeydown='move_snake(event)'></div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
